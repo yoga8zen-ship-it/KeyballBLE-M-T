@@ -64,7 +64,7 @@
 &kp LCTRL  &kp LGUI  &kp LALT  &kp LC(SPACE)  &kp LEFT_ARROW  &lt 2 SPACE  &kp RIGHT_ARROW    &kp BACKSPACE   &lt 1 ENTER                             &kp DEL    &kp RCTRL
             >;
 
-            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>, <&inc_dec_kp 0 0>;
         };
 
         FUNCTION {
