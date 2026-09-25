@@ -64,15 +64,15 @@
 &kp LCTRL  &kp LGUI  &kp LALT  &kp LC(SPACE)  &kp LEFT_ARROW  &lt 2 SPACE  &kp RIGHT_ARROW    &kp BACKSPACE   &lt 1 ENTER                             &kp DEL    &kp RCTRL
             >;
 
-            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
         };
 
         FUNCTION {
             bindings = <
-&kp F1           &kp F2             &kp F3    &kp F4      &kp F5       &kp F6                            &kp F7                &kp F8                 &kp F9        &kp F10             &kp F11            &kp F12
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &trans    &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &trans
-&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans   &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp LS(UNDERSCORE)  &trans             &trans
-&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans   &trans                                                                         &trans             &trans
+&kp F1           &kp F2             &kp F3    &kp F4      &kp F5       &kp F6                            &kp F7    &kp F8    &kp F9     &kp F10             &kp F11   &kp F12
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &trans    &kp SQT  &kp LPAR  &kp RPAR  &kp AT     &kp LBKT            &kp RBKT  &trans
+&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans   &kp LT    &kp GT    &kp QMARK  &kp LS(UNDERSCORE)  &trans    &trans
+&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans   &trans                                             &trans    &trans
             >;
         };
 
