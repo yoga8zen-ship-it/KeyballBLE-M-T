@@ -60,7 +60,7 @@
             bindings = <
 &lt 6 ESC  &kp Q     &kp W     &kp E          &kp R           &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P      &kp BSPC
 &kp TAB    &kp A     &kp S     &kp D          &kp F           &kp G        &mkp MCLK          &kp UP_ARROW    &kp H        &kp J  &kp K      &kp L    &kp MINUS  &kp ENTER
-&kp LSHFT  &kp Z     &kp X     &kp C          &kp V           &kp B        &kp DELETE         &kp DOWN_ARROW  &kp A        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
+&kp LSHFT  &kp Z     &kp X     &kp C          &kp V           &kp B        &kp DELETE         &kp DOWN_ARROW  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
 &kp LCTRL  &kp LGUI  &kp LALT  &kp LC(SPACE)  &kp LEFT_ARROW  &lt 2 SPACE  &kp RIGHT_ARROW    &kp BACKSPACE   &lt 1 ENTER                             &kp DEL    &kp RCTRL
             >;
 
@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1           &kp F2             &kp F3    &kp F4      &kp F5       &kp F6                                 &kp F7    &kp F8    &kp F9       &kp F10             &kp F11   &kp F12
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &trans    &kp QUESTION  &kp LPAR  &kp RPAR  &kp AT_SIGN  &kp LBKT            &kp RBKT  &trans
-&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans        &kp LT    &kp GT    &kp QMARK    &kp LS(UNDERSCORE)  &trans    &trans
-&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans        &trans                                               &trans    &trans
+&kp F1           &kp F2             &kp F3    &kp F4      &kp F5       &kp F6                                 &kp F7                &kp F8                 &kp F9     &kp F10             &kp F11   &kp F12
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &trans    &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT     &kp LBKT            &kp RBKT  &trans
+&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans        &kp LT                &kp GT                 &kp QMARK  &kp LS(UNDERSCORE)  &trans    &trans
+&trans           &trans             &trans    &trans      &trans       &trans         &trans    &trans        &trans                                                                      &trans    &trans
             >;
         };
 
